@@ -14,7 +14,7 @@ This project is about responsive webpage with picture and text the only ones cha
 
 ### Links:
 
-[GitHub] (https://github.com/fate-code202/se_project_spots)
+[GitHub] git@github.com:fate-code202/se_project_spots.git
 
 [My Pitch Video] (https://www.loom.com/share/2075130700b44bbd9d4d6ff63954fc59)
 

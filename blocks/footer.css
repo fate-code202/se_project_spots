@@ -1,11 +1,13 @@
 .footer {
-  max-width: 104px;
-  max-height: 16px;
-  padding-top: 60px;
-  margin-left: 668px;
+  padding: 60px 0;
+  margin: 668px;
 }
 
 .footer__content {
+  font-weight: 400;
+  color: #212121b2;
   font-size: 16px;
+  margin: 0;
+  text-align: center;
   line-height: 100%;
 }
