@@ -56,7 +56,7 @@
   opacity: 1;
 }
 
-.profile__add-button:hover {
+.profile__add-button {
   width: 157px;
   height: 52px;
   margin-top: auto;
@@ -64,6 +64,12 @@
   background-color: rgba(33, 33, 33, 1);
   color: rgba(252, 245, 229, 1);
   border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.profile__add-button:hover {
+  background-color: #212121cc;
 }
 
 @media screen and (max-width: 627px) {
