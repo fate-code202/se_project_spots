@@ -14,17 +14,21 @@
 
 .profile__info {
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
+  max-width: 420px;
 }
 
 .profile__name {
   margin: 0 0 12px;
   font-weight: 500;
+  color: #212121;
   font-size: 32px;
   line-height: 1;
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
+  line-clamp: 3;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   max-width: 420px;
@@ -35,14 +39,22 @@
   font-weight: 500;
   color: #212121b2;
   max-width: 420px;
+  line-height: 1;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  line-clamp: 3;
   -webkit-line-clamp: 3;
   text-overflow: ellipsis;
   margin: 0;
+  margin-right: 20px;
 }
 
 .profile__edit-button {
+  padding: 0;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: #212121;
   margin-top: auto;
   display: flex;
   border: none;
@@ -57,6 +69,10 @@
 }
 
 .profile__add-button {
+  padding: 0;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
   width: 157px;
   height: 52px;
   margin-top: auto;
@@ -94,6 +110,7 @@
 
   .profile__info {
     margin: 0 0 20px;
+    align-items: center;
   }
 
   .profile__bio {
